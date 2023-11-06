@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.gameinterface {
+    background-color: burlywood;
+    height: 100vh;
+    
+
+}
+.gameinterfaceone {
+    height: 50em;
+    background-color:rgba(236, 236, 236, 1);
+}
+.gameinterfaceone i {
+    font-size: 0.5em;
+}
+.gameinterfacetwo i {
+    font-size: 0.5em;
+}
+
+.gameinterfacetwo {
+    height: 50em;
+}
+.displaydee {
+    height:7em;
+    width: 7em;
+    box-shadow: 2px 2px 5px lightslategray;
+    background-color: white;
+}
+.buttons {
+    position: absolute;
+    top: -2em;
+    left: 42.5%;
+    
+    height: 35em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.scoreglobalone {
+    height: 8em;
+    width: 8em;
+    background-color: red;
+    padding: 0.8em;
+}
+
+.scoreglobalone p {
+    font-size: 3em;
+}
+.scoreglobaltwo p {
+    font-size: 3em;
+}
+
+
+
+.scoreroundoneT{
+    font-size: 8em;
+    overflow: hidden;
+    width: 2em;
+    height: 1em;
+}
+.scoreroundtwoT{
+    font-size: 8em;
+    overflow: hidden;
+    width: 2em;
+    height: 1em;
+}
+
+.scoreglobaltwo {
+    height: 8em;
+    width: 8em;
+    background-color: red;
+    padding: 0.8em;
+}
+.pointone {
+    color: red;
+    font-size: 1em;
+    cursor: pointer;
+}
+.pointtwo{
+    color: red;
+    font-size: 1em;
+    cursor: pointer;
+}
+.buttons i {
+    cursor: pointer;
+}
+
+
+.displaydee i {
+    height: 3em;
+}
+
+.scoreroundone{
+    font-size: 7em;
+}
+.scoreroundtwo{
+    font-size: 7em;
+}
