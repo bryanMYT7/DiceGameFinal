@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 body {
     font-family: 'Lato', sans-serif;
-}
-.gameinterface {
+    padding: 1.5em;
     background-color: burlywood;
-    height: 100vh;
-    
-
+    overflow-x: hidden;
 }
+.gameinterface {
+    margin: 0%;
+    margin-left:0.9em;
+    box-shadow: 4px 4px 10px lightslategray;
+    background-color: white;
+    position: relative;
+}
+
 .gameinterfaceone {
-    height: 50em;
+    height: 48em;
+ 
     background-color:rgba(236, 236, 236, 1);
 }
 .gameinterfaceone i {
@@ -17,22 +24,22 @@ body {
 .gameinterfacetwo i {
     font-size: 0.5em;
 }
-
 .gameinterfacetwo {
-    height: 50em;
+    height: 48em;
+    padding: 1em;
+    background-color: white;
 }
 .displaydee {
-    height:7em;
-    width: 7em;
+    height:5em;
+    width: 5em;
     box-shadow: 2px 2px 5px lightslategray;
     background-color: white;
 }
 .buttons {
     position: absolute;
-    top: -2em;
-    left: 42.5%;
-    
-    height: 35em;
+    top: 4em;
+    left: 45%;
+    height: 28em;
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -88,12 +95,32 @@ body {
 
 
 .displaydee i {
-    height: 3em;
+    
 }
 
 .scoreroundone{
-    font-size: 7em;
+    font-size: 6em;
+    position: absolute;
+    top: 3em;
 }
 .scoreroundtwo{
-    font-size: 7em;
+    font-size: 6em;
+    position: absolute;
+    top: 3em;
 }
+
+
+/* Les éléments d'affichage*/
+.playerone, .playertwo {
+    position: absolute;
+    top: 4em;
+    font-size: 3em;
+}
+.playerone i, .playertwo i {
+    margin-left: 1em;
+}
+.playertwo {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*Gestion des alertes*/
